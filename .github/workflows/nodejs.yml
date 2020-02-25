@@ -19,7 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: pwd
     - run: ls
-    - run: cd /home/runner
+    - run: cd /Users/runner
     - run: ls
       
       env:
