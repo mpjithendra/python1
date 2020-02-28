@@ -18,11 +18,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: pwd
-    - run: cd /..; cd /home; ls;
-    - run: cd /Users/runner; ls;
-    - run: cd /Users/runner/github/home; ls;
-    - run: cd /github/workflow; ls;
-    - run: ls
+    - run: cd $GITHUB_WORKSPACE; ls;
+    - run: cd $Home; ls;
+    - run: cd /github/workf
+low; ls;    - run: ls
       
       env:
         CI: true
