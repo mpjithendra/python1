@@ -18,9 +18,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: pwd
-    - run: ls
+    - run: cd /..; ls;
     - run: cd /Users/runner; ls;
-    - run: cd /github/home; ls;
+    - run: cd /Users/runner/github/home; ls;
     - run: cd /github/workflow; ls;
     - run: ls
       
