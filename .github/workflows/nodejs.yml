@@ -20,8 +20,7 @@ jobs:
     - run: pwd
     - run: cd $GITHUB_WORKSPACE; ls;
     - run: cd $Home; ls;
-    - run: cd /github/workf
-low; ls;    - run: ls
+    - run: ls
       
       env:
         CI: true
