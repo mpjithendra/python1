@@ -19,7 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: pwd
     - run: cd $GITHUB_WORKSPACE; ls;
-    - run: cd $Home; ls;
+    - run: cd $Home; cd Downloads; ls;
     - run: ls
       
       env:
