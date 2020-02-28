@@ -20,6 +20,8 @@ jobs:
     - run: pwd
     - run: ls
     - run: cd /Users/runner; ls;
+    - run: cd /github/home; ls;
+    - run: cd /github/workflow; ls;
     - run: ls
       
       env:
