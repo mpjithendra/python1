@@ -22,5 +22,5 @@ jobs:
     - run: cd $HOME; ls;
     - run: ls
       
-      env:
-        CI: true
+#       env:
+#         CI: true
