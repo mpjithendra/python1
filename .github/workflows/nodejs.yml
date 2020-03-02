@@ -22,8 +22,12 @@ jobs:
     - run: pwd
     - run: cd $GITHUB_WORKSPACE; ls;
     - run: cd $HOME; ls;
-    - run: cd /home/runner; ls;
-    - run: cd /home; ls;
+    - run: cd /home/runner/factory; ls;
+    - run: cd /home/runner/perflog; ls;
+    - run: cd /home/runner/runners; ls;
+    - run: cd /home/runner/warmup; ls;
+    - run: cd /home/runner/work; ls;
+    - run: cd /home/runneradmin; ls;
     - run: cd /home/runner/work/_temp; ls;
     - run: ls
       
