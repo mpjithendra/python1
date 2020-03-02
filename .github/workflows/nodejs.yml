@@ -23,7 +23,7 @@ jobs:
     - run: cd $GITHUB_WORKSPACE; ls;
     - run: cd $HOME; ls;
     - run: cd /home/runner; ls;
-    - run: cd /home/runner/Downloads; ls;
+    - run: cd /home/runner/work; ls;
     - run: ls
       
 #       env:
